@@ -34,12 +34,16 @@ int main() {
     switch (oper) {
         case '+':
             additionFunction(num1, num2);
+            break;
         case '-':
             subtractionFunction(num1, num2);
+            break;
         case '*':
             multiplicationFunction(num1, num2);
+            break;
         case '/':
             dividingFunction(num1, num2);
+            break;
         default:
             cout << "Error! The operator is not correct.";
             break;

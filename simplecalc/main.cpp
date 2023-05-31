@@ -1,7 +1,26 @@
 #include <iostream>
-#include <windows.h>
 
 using namespace std;
+
+void additionFunction(float n1, float n2) {
+    cout << "Addition result: " << endl;
+    cout << n1 << " + " << n2 << " = " << n1 + n2;
+}
+
+void subtractionFunction(float n1, float n2) {
+    cout << "Subtraction result: " << endl;
+    cout << n1 << " - " << n2 << " = " << n1 - n2;
+}
+
+void multiplicationFunction(float n1, float n2) {
+    cout << "Multiplication result: " << endl;
+    cout << n1 << " * " << n2 << " = " << n1 * n2;
+}
+
+void dividingFunction(float n1, float n2) {
+    cout << "Dividing result: " << endl;
+    cout << n1 << " / " << n2 << " = " << n1 / n2;
+}
 
 int main() {
     char oper;
@@ -14,24 +33,17 @@ int main() {
 
     switch (oper) {
         case '+':
-            cout << "Addition result: " << endl;
-            cout << num1 << " + " << num2 << " = " << num1 + num2;
-            break;
+            additionFunction(num1, num2);
         case '-':
-            cout << "Subtraction result: " << endl;
-            cout << num1 << " - " << num2 << " = " << num1 - num2;
-            break;
+            subtractionFunction(num1, num2);
         case '*':
-            cout << "Multiplication result: " << endl;
-            cout << num1 << " * " << num2 << " = " << num1 * num2;
-            break;
+            multiplicationFunction(num1, num2);
         case '/':
-            cout << "Dividing result: " << endl;
-            cout << num1 << " / " << num2 << " = " << num1 / num2;
-            break;
+            dividingFunction(num1,num2);
         default:
             cout << "Error! The operator is not correct.";
             break;
     }
     return 0;
 }
+

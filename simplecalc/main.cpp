@@ -39,7 +39,7 @@ int main() {
         case '*':
             multiplicationFunction(num1, num2);
         case '/':
-            dividingFunction(num1,num2);
+            dividingFunction(num1, num2);
         default:
             cout << "Error! The operator is not correct.";
             break;

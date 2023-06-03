@@ -1,8 +1,8 @@
 #include <iostream>
 
-void Args(int = 10, float = 5.8, char = 'G');
-
 using namespace std;
+
+void Args(int = 10, float = 5.8, char = 'G');
 
 int main() {
     int num1;
@@ -30,7 +30,7 @@ int main() {
     Args (10, 5.8, abc);
     cout << endl;
 
-    cout << "There could be more examples, but two give a general idea. They'll do."
+    cout << "There could be more examples, but two give a general idea. They'll do.";
 }
 
 void Args(int i, float f, char g) {

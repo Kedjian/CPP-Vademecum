@@ -1,0 +1,3 @@
+C:/Users/Oskar Makowski/Documents/GitHub/cpp-vademecum/simplerecu/cmake-build-debug/CMakeFiles/simplerecu.dir
+C:/Users/Oskar Makowski/Documents/GitHub/cpp-vademecum/simplerecu/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Oskar Makowski/Documents/GitHub/cpp-vademecum/simplerecu/cmake-build-debug/CMakeFiles/rebuild_cache.dir

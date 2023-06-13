@@ -23,11 +23,11 @@ int main() {
     cout << endl;
 
     cout << "For example, here only int will be modified: " << endl;
-    Args (num1);
+    Args(num1);
     cout << endl;
 
     cout << "As an additional example, only the char will be modified here: " << endl;
-    Args (10, 5.8, abc);
+    Args(10, 5.8, abc);
     cout << endl;
 
     cout << "There could be more examples, but two give a general idea. They'll do.";
